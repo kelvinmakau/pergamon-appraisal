@@ -1,5 +1,7 @@
 body {
+	margin: 0;
 	background-color: #00AEEF;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .body-pad {
@@ -25,7 +27,11 @@ body {
 
 .sm-inp {
 	float: right;
-	margin-right: 30%;
+	margin-right: 25%;
+}
+button{
+	background-color: #00AEEF;
+	float: right;
 }
 
 li {

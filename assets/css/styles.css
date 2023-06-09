@@ -1,0 +1,33 @@
+body {
+	background-color: #00AEEF;
+}
+
+.body-pad {
+	padding: 20px;
+	margin: 0 5%;
+	background-color: #fff;
+}
+
+.logo {
+	width: auto;
+	height: 100px;
+	margin: 0 40%;
+	/* border-radius: 5%; */
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+}
+
+.logo img {
+	width: auto;
+	height: auto;
+}
+
+.sm-inp {
+	float: right;
+	margin-right: 30%;
+}
+
+li {
+	margin-bottom: 10px;
+}

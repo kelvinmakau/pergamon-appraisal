@@ -1,7 +1,10 @@
 body {
 	margin: 0;
 	background-color: #00AEEF;
-	font-family: Arial, Helvetica, sans-serif;
+	background-image: linear-gradient(45deg, #235e6e, #00AEEF);
+	font-family: "Roboto", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .body-pad {
@@ -12,6 +15,7 @@ body {
 
 .logo {
 	width: auto;
+	min-width: 150px;
 	height: 100px;
 	margin: 0 40%;
 	/* border-radius: 5%; */
@@ -29,11 +33,94 @@ body {
 	float: right;
 	margin-right: 25%;
 }
-button{
+
+button {
 	background-color: #00AEEF;
 	float: right;
 }
 
 li {
 	margin-bottom: 10px;
+}
+
+.sec-head {
+	color: #1c4e5a;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.cls-btn a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+/* Login form css */
+.login-page {
+	width: 360px;
+	padding: 8% 0 0;
+	margin: auto;
+}
+
+.login-page .form .login {
+	margin-top: -31px;
+	margin-bottom: 26px;
+}
+
+.form {
+	position: relative;
+	z-index: 1;
+	background: #FFFFFF;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+	font-family: "Roboto", sans-serif;
+	outline: 0;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+#login_btn {
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	background-color: #328f8a;
+	background-image: linear-gradient(45deg, #00AEEF, #00AEde);
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	-webkit-transition: all 0.3 ease;
+	transition: all 0.3 ease;
+	cursor: pointer;
+}
+
+.form .message {
+	margin: 15px 0 0;
+	color: #8f7272;
+	font-size: 12px;
+}
+
+.form .message a {
+	color: #465ab1;
+	text-decoration: none;
+}
+
+.container {
+	position: relative;
+	z-index: 1;
+	/* max-width: 300px; */
+	margin: 0 auto;
 }
